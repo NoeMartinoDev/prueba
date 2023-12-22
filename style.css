@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Mulish&display=swap');
+
+body {
+    font-family: 'Mulish', sans-serif;
+    background-color: #ccc5c5;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 45px;
+    margin: 0;
+    color: #333;
+}
+
+h2 {
+    font-size: 30px;
+    color: #555;
+}
+
+h3 {
+    font-size: 30px;
+    color: #555;
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#searchBar {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#buttonSearch {
+    background-color: #465fcc;
+    font-family: 'Mulish', sans-serif;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#container > div {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #72d7f065;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+.detailDiv {
+    display: flex;
+    align-items: center;
+}
+
+.detailDiv img {
+    width: 300px;
+    margin: 10px;
+}
+
+.divP {
+    margin: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: 250px;
+}
